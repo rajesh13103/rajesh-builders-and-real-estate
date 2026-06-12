@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Contact Aurum Estates — speak with our principal about layouts, interiors and construction." />
+<title>Contact — Aurum Estates</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='90' fill='%23D4AF37'>A</text></svg>" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="animations.css" />
+<link rel="stylesheet" href="layouts.css" />
+<link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+<div class="loader" id="loader"><div class="loader-mark"><span class="loader-letter">A</span><span class="loader-ring"></span></div><p class="loader-text">AURUM&nbsp;ESTATES</p></div>
+<div class="cursor-dot" id="cursorDot"></div><div class="cursor-ring" id="cursorRing"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header class="navbar" id="navbar"><div class="nav-inner container">
+  <a href="index.html" class="brand"><span class="brand-mark">A</span><span class="brand-text">AURUM<small>ESTATES</small></span></a>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a><a href="layouts.html">Layouts</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html" class="active">Contact</a>
+    <a href="contact.html" class="nav-cta">Book Consultation</a>
+  </nav>
+  <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+</div></header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="breadcrumb">Home · Contact</p>
+    <h1>Begin a <em>quiet conversation.</em></h1>
+    <p>Tell us a little about what you're looking for. We respond within one business day — usually sooner.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+    <aside class="contact-aside reveal" data-anim="fade-right">
+      <h3 class="section-title" style="font-size:1.8rem">Reach the studio</h3>
+      <ul class="contact-list">
+        <li><i class="fa-solid fa-user"></i><div><strong>Principal</strong><span id="c-owner">Rajeev Sharma</span></div></li>
+        <li><i class="fa-solid fa-phone"></i><div><strong>Phone</strong><span id="c-phone">+91 98765 43210</span></div></li>
+        <li><i class="fa-brands fa-whatsapp"></i><div><strong>WhatsApp</strong><span id="c-whatsapp">+91 98765 43210</span></div></li>
+        <li><i class="fa-solid fa-envelope"></i><div><strong>Email</strong><span id="c-email">contact@aurumestates.in</span></div></li>
+        <li><i class="fa-solid fa-location-dot"></i><div><strong>Studio</strong><span id="c-address">12 Brigade Plaza, MG Road, Bangalore 560001</span></div></li>
+      </ul>
+      <div class="map-embed">
+        <iframe loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=77.59%2C12.96%2C77.62%2C12.98&amp;layer=mapnik" title="Studio location"></iframe>
+      </div>
+    </aside>
+    <form id="contactForm" class="contact-form reveal" data-anim="fade-left" data-testid="contact-form" novalidate>
+      <h3 class="section-title" style="font-size:1.8rem;margin-bottom:24px">Tell us about your project</h3>
+      <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" required data-testid="contact-name" /><span class="err" id="err-name"></span></div>
+      <div class="grid-2">
+        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required data-testid="contact-phone" /><span class="err" id="err-phone"></span></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required data-testid="contact-email" /><span class="err" id="err-email"></span></div>
+      </div>
+      <div class="field"><label for="service">Service interested</label>
+        <select id="service" name="service" data-testid="contact-service">
+          <option>Layout / Plot</option>
+          <option>Interior Design</option>
+          <option>Construction</option>
+          <option>Turnkey Project</option>
+          <option>Renovation</option>
+          <option>Consultation</option>
+        </select>
+      </div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required data-testid="contact-message"></textarea><span class="err" id="err-message"></span></div>
+      <button type="submit" class="btn btn-gold" data-testid="contact-submit">Send enquiry <i class="fa-solid fa-paper-plane"></i></button>
+      <p class="form-status" id="formStatus" data-testid="contact-status"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer"><div class="container footer-grid">
+  <div><div class="brand"><span class="brand-mark">A</span><span class="brand-text">AURUM<small>ESTATES</small></span></div><p class="footer-tag">A private atelier of land, architecture and craft.</p></div>
+  <div><h5>Navigate</h5><a href="index.html">Home</a><a href="layouts.html">Layouts</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+  <div><h5>Reach Us</h5><p id="footer-phone">+91 98765 43210</p><p id="footer-email">contact@aurumestates.in</p><p id="footer-address">12 Brigade Plaza, MG Road, Bangalore 560001</p></div>
+  <div><h5>Follow</h5><div class="socials"><a href="https://instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a><a href="https://linkedin.com" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a></div></div>
+</div><div class="container footer-bottom"><p>© <span id="year"></span> Aurum Estates · All rights reserved.</p><p><a href="admin.html">Admin</a></p></div></footer>
+
+<a href="https://wa.me/919876543210" class="float-btn whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="tel:+919876543210" class="float-btn call"><i class="fa-solid fa-phone"></i></a>
+<button class="float-btn back-top" id="backTop"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script type="module" src="js/storage.js"></script>
+<script type="module" src="js/animations.js"></script>
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/validation.js"></script>
+</body>
+</html>

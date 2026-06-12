@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aurum Estates — Premium luxury real estate, layouts, interior design and turnkey construction. Crafting timeless residences across India." />
+  <meta name="keywords" content="luxury real estate, premium layouts, plot sales, interior design, turnkey construction, villa interiors, Bangalore real estate" />
+  <meta name="author" content="Aurum Estates" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Aurum Estates — Luxury Real Estate, Layouts & Interiors" />
+  <meta property="og:description" content="A premium real estate atelier — layouts, interiors and turnkey construction with craftsmanship." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='90' fill='%23D4AF37'>A</text></svg>" />
+  
+  <title>Aurum Estates — Luxury Real Estate, Layouts & Interiors</title>
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animations.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Aurum Estates",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "telephone": "+91-98765-43210",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "12 Brigade Plaza, MG Road",
+      "addressLocality": "Bangalore",
+      "postalCode": "560001",
+      "addressCountry": "IN"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" id="loader" data-testid="luxury-loader">
+    <div class="loader-mark">
+      <span class="loader-letter">A</span>
+      <span class="loader-ring"></span>
+    </div>
+    <p class="loader-text">AURUM&nbsp;ESTATES</p>
+  </div>
+
+  <!-- Custom Cursor Elements -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <a href="/index.html" class="brand" data-testid="brand-logo">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">AURUM<small>ESTATES</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks" data-testid="nav-links">
+        <a href="/index.html" class="active">Home</a>
+        <a href="/layouts.html">Layouts</a>
+        <a href="/services.html">Services</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/contact.html" class="nav-cta">Book Consultation</a>
+      </nav>
+      <button class="hamburger" id="hamburger" data-testid="mobile-menu-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600">
+      <source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-luxury-villa-2633/1080p.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <p class="eyebrow reveal" data-anim="fade-down">EST. 2009 · BANGALORE</p>
+      <h1 class="hero-title">
+        <span class="reveal-line"><span>An atelier of</span></span>
+        <span class="reveal-line"><span><em>quiet luxury</em></span></span>
+        <span class="reveal-line"><span>in real estate.</span></span>
+      </h1>
+      <p class="hero-sub reveal" data-anim="fade-up">Curated layouts, interior craftsmanship and turnkey construction — built for the few who collect homes the way others collect art.</p>
+      <div class="hero-ctas reveal" data-anim="fade-up">
+        <a href="/layouts.html" class="btn btn-gold" data-testid="hero-view-layouts">View Layouts <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="/contact.html" class="btn btn-ghost" data-testid="hero-contact-us">Contact Us</a>
+        <a href="/contact.html" class="btn btn-link" data-testid="hero-book-consultation">Book Consultation</a>
+      </div>
+    </div>
+    
+    <!-- Animated Counter Grid -->
+    <div class="hero-stats container">
+      <div class="stat"><span class="counter" data-target="120">0</span><small>Layouts Completed</small></div>
+      <div class="divider"></div>
+      <div class="stat"><span class="counter" data-target="2400">0</span><small>Plots Sold</small></div>
+      <div class="divider"></div>
+      <div class="stat"><span class="counter" data-target="86">0</span><small>Projects Delivered</small></div>
+      <div class="divider"></div>
+      <div class="stat"><span class="counter" data-target="950">0</span><small>Happy Clients</small></div>
+      <div class="divider"></div>
+      <div class="stat"><span class="counter" data-target="15">0</span><small>Crew Members</small></div>
+    </div>
+    <div class="scroll-indicator"><span></span><small>Scroll</small></div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal" data-anim="fade-right">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1000" alt="Aurum residence" />
+        <div class="about-badge">
+          <i class="fa-solid fa-award"></i>
+          <div><strong>17 Years</strong><small>of craft & legacy</small></div>
+        </div>
+      </div>
+      <div class="about-copy reveal" data-anim="fade-left">
+        <p class="eyebrow">— Our Story</p>
+        <h2 class="section-title">We design <em>permanence.</em></h2>
+        <p>Aurum Estates is a family-run atelier of land, architecture and interior craft. We work on a handful of projects each year — by invitation, by referral, by a quiet belief that a home should outlive its owners.</p>
+        <ul class="about-list">
+          <li>
+            <i class="fa-solid fa-compass"></i>
+            <div><strong>Mission</strong><span>Curate land and craft homes that age with grace.</span></div>
+          </li>
+          <li>
+            <i class="fa-solid fa-eye"></i>
+            <div><strong>Vision</strong><span>To be India's most trusted private real-estate atelier.</span></div>
+          </li>
+          <li>
+            <i class="fa-solid fa-handshake"></i>
+            <div><strong>Trust</strong><span>RERA-compliant. Title-clear. Architect-signed.</span></div>
+          </li>
+        </ul>
+        <a href="/services.html" class="btn btn-outline-gold" data-testid="about-services-link">Explore our services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-head reveal" data-anim="fade-up">
+        <p class="eyebrow">— What we do</p>
+        <h2 class="section-title">Three disciplines.<br/>One <em>signature.</em></h2>
+      </div>
+      <div class="services-grid">
+        <article class="svc-card reveal" data-anim="fade-up">
+          <div class="svc-num">01</div>
+          <h3>Real Estate</h3>
+          <p>Layout development, plot sales and gated communities — RERA approved, title-clear.</p>
+          <ul><li>Plot Sales</li><li>Layout Development</li><li>Investment Advisory</li></ul>
+          <a href="/layouts.html" class="svc-link">Browse layouts <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        
+        <article class="svc-card svc-feature reveal" data-anim="fade-up">
+          <div class="svc-num">02</div>
+          <h3>Interior Design</h3>
+          <p>Bespoke residential and commercial interiors, modular kitchens and signature ceilings.</p>
+          <ul><li>Home & Villa Interiors</li><li>Modular Kitchens</li><li>False Ceiling</li><li>Office Interiors</li></ul>
+          <a href="/services.html#interiors" class="svc-link">View interiors <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+        
+        <article class="svc-card reveal" data-anim="fade-up">
+          <div class="svc-num">03</div>
+          <h3>Construction</h3>
+          <p>From foundation to handover — residential, commercial, renovation and turnkey delivery.</p>
+          <ul><li>Residential</li><li>Commercial</li><li>Renovation</li><li>Turnkey</li></ul>
+          <a href="/services.html#construction" class="svc-link">See projects <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Layouts Section -->
+  <section class="featured section" id="featured">
+    <div class="container">
+      <div class="section-head reveal" data-anim="fade-up">
+        <p class="eyebrow">— Featured</p>
+        <h2 class="section-title">Currently <em>open</em> for ownership</h2>
+      </div>
+      <div class="featured-grid" id="featuredGrid" data-testid="featured-layouts"></div>
+      <div class="center">
+        <a href="/layouts.html" class="btn btn-outline-gold" data-testid="view-all-layouts">View all layouts <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal" data-anim="fade-up">
+        <p class="eyebrow">— Clients</p>
+        <h2 class="section-title">A quiet trust, kept across <em>generations.</em></h2>
+      </div>
+      <div class="testimonial-slider" id="testimonialSlider" data-testid="testimonial-slider"></div>
+      <div class="testimonial-dots" id="testimonialDots"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand"><span class="brand-mark">A</span><span class="brand-text">AURUM<small>ESTATES</small></span></div>
+        <p class="footer-tag">A private atelier of land, architecture and craft.</p>
+      </div>
+      <div>
+        <h5>Navigate</h5>
+        <a href="/index.html">Home</a>
+        <a href="/layouts.html">Layouts</a>
+        <a href="/services.html">Services</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div>
+        <h5>Reach Us</h5>
+        <p id="footer-phone">+91 98765 43210</p>
+        <p id="footer-email">contact@aurumestates.in</p>
+        <p id="footer-address">12 Brigade Plaza, MG Road, Bangalore 560001</p>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Aurum Estates · RERA/KA/2019/PR/000142 · All rights reserved.</p>
+      <p><a href="/admin.html">Admin</a></p>
+    </div>
+  </footer>
+
+  <!-- Floating Action Triggers -->
+  <a href="https://wa.me/919876543210" class="float-btn whatsapp" aria-label="WhatsApp" data-testid="float-whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="tel:+919876543210" class="float-btn call" aria-label="Call" data-testid="float-call"><i class="fa-solid fa-phone"></i></a>
+  <button class="float-btn back-top" id="backTop" aria-label="Back to top" data-testid="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Script Modules -->
+  <script type="module" src="/js/storage.js"></script>
+  <script type="module" src="/js/animations.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

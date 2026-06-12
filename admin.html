@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex,nofollow" />
+<title>Admin — Aurum Estates</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='90' fill='%23D4AF37'>A</text></svg>" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="animations.css" />
+<link rel="stylesheet" href="layouts.css" />
+<link rel="stylesheet" href="admin.css" />
+<link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+<div class="cursor-dot" id="cursorDot"></div><div class="cursor-ring" id="cursorRing"></div>
+
+<div class="admin-login" id="adminLogin" data-testid="admin-login">
+  <form id="loginForm" class="login-panel">
+    <span class="brand-mark" style="width:48px;height:48px">A</span>
+    <h2>Aurum Console</h2>
+    <p>Sign in to manage content.</p>
+    <div class="field"><label>Username</label><input id="lgUser" type="text" autocomplete="off" data-testid="admin-username" /></div>
+    <div class="field"><label>Password</label><input id="lgPass" type="password" autocomplete="off" data-testid="admin-password" /></div>
+    <button type="submit" class="btn btn-gold" data-testid="admin-login-btn">Sign in</button>
+    <p class="form-status" id="lgStatus"></p>
+    <small style="color:var(--muted);margin-top:14px;display:block">Default: admin / admin123</small>
+  </form>
+</div>
+
+<div class="admin-shell" id="adminShell" style="display:none">
+  <aside class="admin-side">
+    <div class="brand"><span class="brand-mark">A</span><span class="brand-text">AURUM<small>CONSOLE</small></span></div>
+    <nav>
+      <button class="tab active" data-tab="overview" data-testid="tab-overview"><i class="fa-solid fa-gauge"></i> Overview</button>
+      <button class="tab" data-tab="layouts" data-testid="tab-layouts"><i class="fa-solid fa-map"></i> Layouts</button>
+      <button class="tab" data-tab="gallery" data-testid="tab-gallery"><i class="fa-solid fa-images"></i> Gallery</button>
+      <button class="tab" data-tab="crew" data-testid="tab-crew"><i class="fa-solid fa-user-tie"></i> Crew</button>
+      <button class="tab" data-tab="testimonials" data-testid="tab-testimonials"><i class="fa-solid fa-quote-right"></i> Testimonials</button>
+      <button class="tab" data-tab="contact" data-testid="tab-contact"><i class="fa-solid fa-address-book"></i> Contact Info</button>
+      <button class="tab" data-tab="submissions" data-testid="tab-submissions"><i class="fa-solid fa-envelope-open-text"></i> Enquiries</button>
+    </nav>
+    <button id="logoutBtn" class="logout" data-testid="admin-logout"><i class="fa-solid fa-arrow-right-from-bracket"></i> Sign out</button>
+  </aside>
+  <main class="admin-main" id="adminMain"></main>
+</div>
+
+<script type="module" src="js/storage.js"></script>
+<script type="module" src="js/animations.js"></script>
+<script type="module" src="js/admin.js"></script>
+</body>
+</html>

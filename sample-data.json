@@ -1,0 +1,167 @@
+{
+  "contact": {
+    "owner": "Rajeev Sharma",
+    "phone": "+91 98765 43210",
+    "whatsapp": "+91 98765 43210",
+    "email": "contact@aurumestates.in",
+    "address": "12 Brigade Plaza, MG Road, Bangalore 560001",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15555.123!2d77.6!3d12.97"
+  },
+  "stats": {
+    "layouts": 120,
+    "plots": 2400,
+    "projects": 86,
+    "clients": 950,
+    "crew": 15
+  },
+  "homepage": {
+    "tagline": "An atelier of quiet luxury in real estate.",
+    "mission": "Curate land and craft homes that age with grace.",
+    "vision": "To be India's most trusted private real-estate atelier."
+  },
+  "layouts": [
+    {
+      "id": "lyt-aurelian-greens",
+      "name": "Aurelian Greens",
+      "location": "Sarjapur, Bangalore",
+      "price": "₹ 68 L onwards",
+      "area": "1200 – 2400 sqft",
+      "plots": 142,
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1400",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400"
+      ],
+      "description": "A serene 32-acre gated community wrapped in old-growth canopy, ten minutes from Sarjapur Road. RERA-approved, title-clear, with curated 30x40 to 40x60 parcels.",
+      "amenities": ["40 ft tarmac roads", "Underground utilities", "Clubhouse 12,000 sqft", "Swimming pool", "Tennis court", "Pet park"],
+      "specs": { "roads": "30–40 ft tar", "water": "Borewell + Cauvery", "electricity": "Underground BESCOM" },
+      "nearby": ["Inventure Academy – 6 km", "Wipro Corporate Office – 4 km", "Decathlon Sarjapur – 5 km"],
+      "maps": "https://maps.google.com/?q=Sarjapur+Bangalore"
+    },
+    {
+      "id": "lyt-pavilion-heights",
+      "name": "Pavilion Heights",
+      "location": "Devanahalli, Bangalore",
+      "price": "₹ 92 L onwards",
+      "area": "1500 – 3600 sqft",
+      "plots": 88,
+      "status": "limited",
+      "image": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1200",
+      "gallery": [
+        "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1400",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1400"
+      ],
+      "description": "A premium airport-corridor address, walled in stone and engineered for elevation. 88 parcels remain of the original 220.",
+      "amenities": ["Tree-lined avenues", "Smart street lighting", "EV charging stations", "Yoga deck", "Children's play area"],
+      "specs": { "roads": "30 ft RCC", "water": "Cauvery 5th stage", "electricity": "Underground + solar street" },
+      "nearby": ["KIA Airport – 9 km", "Aerospace SEZ – 7 km", "Manyata Tech Park – 22 km"],
+      "maps": "https://maps.google.com/?q=Devanahalli+Bangalore"
+    },
+    {
+      "id": "lyt-lumen-park",
+      "name": "Lumen Park",
+      "location": "Whitefield, Bangalore",
+      "price": "₹ 1.2 Cr onwards",
+      "area": "2400 – 4800 sqft",
+      "plots": 64,
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1200",
+      "gallery": [
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1400",
+        "https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=1400"
+      ],
+      "description": "Architect-curated parcels with elevation guidelines — a future neighbourhood of signed homes only.",
+      "amenities": ["Design code", "Private security", "Co-working pavilion", "Lap pool", "Botanical walk"],
+      "specs": { "roads": "40 ft asphalt", "water": "STP recycled + Cauvery", "electricity": "100% underground" },
+      "nearby": ["ITPL – 4 km", "VR Bengaluru – 5 km", "Forum Shantiniketan – 3 km"],
+      "maps": "https://maps.google.com/?q=Whitefield+Bangalore"
+    },
+    {
+      "id": "lyt-meridian-fields",
+      "name": "Meridian Fields",
+      "location": "Mysuru Road, Bangalore",
+      "price": "₹ 42 L onwards",
+      "area": "1200 – 1800 sqft",
+      "plots": 0,
+      "status": "sold",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200",
+      "gallery": ["https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1400"],
+      "description": "Sold out within 90 days of launch. Phase II under planning — register for invitation.",
+      "amenities": ["Gated", "Park", "Children's area"],
+      "specs": { "roads": "30 ft tar", "water": "Borewell", "electricity": "BESCOM" },
+      "nearby": ["NICE Road – 2 km", "Rajarajeshwari Medical – 6 km"],
+      "maps": "https://maps.google.com/?q=Mysore+Road+Bangalore"
+    },
+    {
+      "id": "lyt-ivory-cove",
+      "name": "Ivory Cove",
+      "location": "ECR, Chennai",
+      "price": "₹ 1.6 Cr onwards",
+      "area": "2400 – 6000 sqft",
+      "plots": 36,
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200",
+      "gallery": ["https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1400"],
+      "description": "Sea-facing premium parcels launching Q4 2026. Pre-launch interest open.",
+      "amenities": ["Beach access", "Private clubhouse", "Concierge"],
+      "specs": { "roads": "40 ft paver", "water": "Desalination + Cauvery", "electricity": "100% underground" },
+      "nearby": ["Mahabalipuram – 8 km", "OMR Tech Corridor – 18 km"],
+      "maps": "https://maps.google.com/?q=ECR+Chennai"
+    },
+    {
+      "id": "lyt-cypress-row",
+      "name": "Cypress Row",
+      "location": "Hennur, Bangalore",
+      "price": "₹ 78 L onwards",
+      "area": "1500 – 2700 sqft",
+      "plots": 56,
+      "status": "available",
+      "image": "https://images.unsplash.com/photo-1600573472556-e636c2acda88?w=1200",
+      "gallery": ["https://images.unsplash.com/photo-1600573472556-e636c2acda88?w=1400"],
+      "description": "Cypress-lined boulevards and a private 1.4 acre central park.",
+      "amenities": ["Central park", "Walking trail", "Café pavilion"],
+      "specs": { "roads": "30 ft tar", "water": "Cauvery", "electricity": "Underground" },
+      "nearby": ["Manyata Tech Park – 9 km", "RMZ Galleria – 6 km"],
+      "maps": "https://maps.google.com/?q=Hennur+Bangalore"
+    }
+  ],
+  "testimonials": [
+    { "id":"t1", "name":"Anika Iyer", "project":"Aurelian Greens · 40x60 plot", "rating":5, "photo":"https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200", "review":"Aurum's discretion and craftsmanship is rare. They handed over a parcel that already felt like home." },
+    { "id":"t2", "name":"Karan Mehta", "project":"Lumen Park · Villa Interior", "rating":5, "photo":"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200", "review":"Three properties later, I still trust no one else for land in South India." },
+    { "id":"t3", "name":"Sneha Reddy", "project":"Turnkey Construction · Devanahalli", "rating":5, "photo":"https://images.unsplash.com/photo-1573497019418-b400bb3ab074?w=200", "review":"From the foundation pour to the last brass handle — every detail had an architect's signature on it." },
+    { "id":"t4", "name":"Vikram Bhatia", "project":"Modular Kitchen · Whitefield", "rating":5, "photo":"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200", "review":"Quiet luxury — exactly what they promise. No shortcuts, no surprises." }
+  ],
+  "crew": [
+    { "id":"c1", "name":"Rajeev Sharma", "role":"Founder & Principal", "experience":"21 yrs", "photo":"https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400", "skills":["Land acquisition","Investment"] },
+    { "id":"c2", "name":"Aanya Verma", "role":"Head of Interiors", "experience":"14 yrs", "photo":"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400", "skills":["Spatial design","Material curation"] },
+    { "id":"c3", "name":"Devansh Rao", "role":"Construction Director", "experience":"18 yrs", "photo":"https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400", "skills":["RCC","Project management"] },
+    { "id":"c4", "name":"Meera Pillai", "role":"Lead Architect", "experience":"12 yrs", "photo":"https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400", "skills":["Residential","Sustainable design"] },
+    { "id":"c5", "name":"Arjun Kapoor", "role":"Senior Designer", "experience":"9 yrs", "photo":"https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400", "skills":["Modular","Lighting"] },
+    { "id":"c6", "name":"Priya Nair", "role":"Customer Success", "experience":"7 yrs", "photo":"https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400", "skills":["CRM","Onboarding"] },
+    { "id":"c7", "name":"Ishaan Joshi", "role":"Site Engineer", "experience":"6 yrs", "photo":"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400", "skills":["QA","Safety"] },
+    { "id":"c8", "name":"Tara Menon", "role":"Brand & Visual", "experience":"8 yrs", "photo":"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400", "skills":["Brand","Photography"] },
+    { "id":"c9", "name":"Nikhil Saxena", "role":"Land Surveyor", "experience":"11 yrs", "photo":"https://images.unsplash.com/photo-1463453091185-61582044d556?w=400", "skills":["Cadastral","Title"] },
+    { "id":"c10","name":"Riya Khanna","role":"Interior Stylist", "experience":"5 yrs", "photo":"https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400", "skills":["Soft furnishings","Art"] },
+    { "id":"c11","name":"Sahil Bansal","role":"Procurement Head", "experience":"13 yrs", "photo":"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400", "skills":["Vendor","Logistics"] },
+    { "id":"c12","name":"Lavanya Suresh","role":"Legal Counsel", "experience":"15 yrs", "photo":"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400", "skills":["RERA","Conveyancing"] },
+    { "id":"c13","name":"Rohan Desai","role":"Finance Director", "experience":"16 yrs", "photo":"https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400", "skills":["Treasury","Tax"] },
+    { "id":"c14","name":"Kavya Gupta","role":"Marketing Lead", "experience":"7 yrs", "photo":"https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400", "skills":["Performance","Content"] },
+    { "id":"c15", "name":"Aditya Roy", "role":"Tech & Smart Homes", "experience":"6 yrs", "photo":"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400", "skills":["IoT","Automation"] }
+  ],
+  "gallery": [
+    { "id":"g1","category":"layout","title":"Aurelian Greens — Aerial","image":"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600" },
+    { "id":"g2","category":"layout","title":"Pavilion Heights — Avenue","image":"https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=1600" },
+    { "id":"g3","category":"layout","title":"Lumen Park — Master plan","image":"https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1600" },
+    { "id":"g4","category":"interior","title":"Villa Living — Whitefield","image":"https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1600" },
+    { "id":"g5","category":"interior","title":"Modular Kitchen — Indiranagar","image":"https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1600" },
+    { "id":"g6","category":"interior","title":"Master Suite — Sarjapur","image":"https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1600" },
+    { "id":"g7","category":"construction","title":"Turnkey Villa — Devanahalli","image":"https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600" },
+    { "id":"g8","category":"construction","title":"Commercial Build — MG Road","image":"https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600" },
+    { "id":"g9","category":"construction","title":"Renovation — Heritage Bungalow","image":"https://images.unsplash.com/photo-1600566753086-00f18fe6ba61?w=1600" },
+    { "id":"g10","category":"interior","title":"Office Interior — UB City","image":"https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600" },
+    { "id":"g11","category":"layout","title":"Cypress Row — Boulevard","image":"https://images.unsplash.com/photo-1600573472556-e636c2acda88?w=1600" },
+    { "id":"g12","category":"interior","title":"False Ceiling — Pavilion Heights","image":"https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1600" }
+  ]
+}

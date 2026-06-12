@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium plot layout details by Rajesh Builders and Developers, Tirupati.">
+  <title>Layout Details | Rajesh Builders and Developers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+<div id="scroll-progress"></div>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-icon">R</div>
+    <div class="nav-logo-text">
+      <span class="nav-logo-name">Rajesh Builders</span>
+      <span class="nav-logo-sub">And Developers</span>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="layouts.html" class="nav-link active">Layouts</a>
+    <a href="services.html" class="nav-link">Services</a>
+    <a href="gallery.html" class="nav-link">Gallery</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+    <a href="contact.html" class="nav-link nav-cta">Book Site Visit</a>
+  </div>
+  <button class="nav-menu-btn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-nav">
+  <a href="index.html" class="nav-link">Home</a>
+  <a href="layouts.html" class="nav-link">Layouts</a>
+  <a href="contact.html" class="nav-link nav-cta">Book Site Visit</a>
+</div>
+
+<!-- LAYOUT DETAIL CONTENT -->
+<div class="layout-detail-content" style="padding-top:100px">
+  <div class="container">
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb" style="justify-content:flex-start;margin-bottom:30px">
+      <a href="index.html">Home</a>
+      <span>›</span>
+      <a href="layouts.html">Layouts</a>
+      <span>›</span>
+      <span id="layout-name">Layout Details</span>
+    </div>
+
+    <!-- Header -->
+    <div class="layout-detail-header reveal">
+      <div>
+        <div class="layout-gallery-main">
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1F2937 0%,#111827 100%);display:flex;align-items:center;justify-content:center;font-size:6rem;border-radius:20px">🏘️</div>
+        </div>
+        <!-- Thumbnail strip -->
+        <div style="display:flex;gap:10px;margin-top:12px">
+          <div style="flex:1;height:80px;background:linear-gradient(135deg,#1a1a2e,#111);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;cursor:pointer;border:1px solid rgba(212,175,55,0.2)">🌿</div>
+          <div style="flex:1;height:80px;background:linear-gradient(135deg,#0f3460,#111);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;cursor:pointer;border:1px solid rgba(212,175,55,0.2)">🛣️</div>
+          <div style="flex:1;height:80px;background:linear-gradient(135deg,#1c2a3a,#111);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;cursor:pointer;border:1px solid rgba(212,175,55,0.2)">🌳</div>
+          <div style="flex:1;height:80px;background:linear-gradient(135deg,#1F2937,#0A0A0A);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;cursor:pointer;border:1px solid rgba(212,175,55,0.2)">🏡</div>
+        </div>
+      </div>
+
+      <!-- Info Panel -->
+      <div class="layout-info-panel">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+          <span id="layout-badge" class="property-badge badge-available">Available</span>
+          <span style="font-size:0.75rem;color:#9CA3AF" id="layout-location">Location</span>
+        </div>
+        <h1 style="font-family:var(--font-heading);font-size:1.8rem;font-weight:800;margin-bottom:8px" id="layout-name-heading">Layout Name</h1>
+        <div class="layout-price-tag" id="layout-price">₹0</div>
+        <div class="divider" style="margin:16px 0"></div>
+        <div class="layout-specs">
+          <div class="layout-spec">
+            <div class="layout-spec-label">Total Area</div>
+            <div class="layout-spec-value" id="layout-area">—</div>
+          </div>
+          <div class="layout-spec">
+            <div class="layout-spec-label">Available Plots</div>
+            <div class="layout-spec-value" id="layout-plots">—</div>
+          </div>
+          <div class="layout-spec">
+            <div class="layout-spec-label">Total Plots</div>
+            <div class="layout-spec-value" id="layout-total-plots">—</div>
+          </div>
+          <div class="layout-spec">
+            <div class="layout-spec-label">Road Width</div>
+            <div class="layout-spec-value" id="layout-road">—</div>
+          </div>
+        </div>
+        <div class="divider" style="margin:16px 0"></div>
+        <div style="font-size:0.85rem;color:#9CA3AF;margin-bottom:16px" id="layout-address">Address</div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <button class="btn-primary" data-open-booking="" style="justify-content:center">📅 Book Site Visit</button>
+          <a href="tel:+919966563335" class="btn-secondary" style="justify-content:center">📞 Call for Details</a>
+          <a href="https://wa.me/919966563335" target="_blank" class="btn-outline" style="justify-content:center">💬 WhatsApp Enquiry</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Description -->
+    <div style="margin-bottom:60px" class="reveal">
+      <div class="section-eyebrow">About This Layout</div>
+      <h2 class="section-title" style="font-size:1.8rem">Layout <span class="gold">Overview</span></h2>
+      <div class="divider"></div>
+      <p style="font-size:1rem;color:#9CA3AF;line-height:1.9;max-width:800px" id="layout-description">Description loading...</p>
+    </div>
+
+    <!-- Two Column: Amenities + Plot Sizes -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-bottom:60px">
+      <div class="reveal">
+        <div class="section-eyebrow">Facilities</div>
+        <h3 style="font-family:var(--font-heading);font-size:1.4rem;font-weight:700;margin-bottom:24px">Amenities & <span class="gold">Infrastructure</span></h3>
+        <div class="amenities-grid" id="layout-amenities" style="grid-template-columns:1fr 1fr">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="section-eyebrow">Plot Information</div>
+        <h3 style="font-family:var(--font-heading);font-size:1.4rem;font-weight:700;margin-bottom:24px">Available <span class="gold">Plot Sizes</span></h3>
+        <table class="plot-table">
+          <thead>
+            <tr><th>Plot Size</th><th>Price</th><th>Status</th></tr>
+          </thead>
+          <tbody id="plot-sizes">
+            <tr><td>Loading...</td><td>—</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Nearby Places -->
+    <div style="margin-bottom:60px" class="reveal">
+      <div class="section-eyebrow">Location Intelligence</div>
+      <h2 class="section-title" style="font-size:1.8rem">Nearby <span class="gold">Places</span></h2>
+      <div class="divider"></div>
+      <div class="nearby-grid" id="nearby-places">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+    <!-- Google Map -->
+    <div style="margin-bottom:60px" class="reveal">
+      <div class="section-eyebrow">Location</div>
+      <h2 class="section-title" style="font-size:1.8rem">Find Us <span class="gold">On Map</span></h2>
+      <div class="divider"></div>
+      <div class="map-container" id="layout-map">
+        <div style="width:100%;height:350px;background:linear-gradient(135deg,#1F2937,#111);display:flex;align-items:center;justify-content:center;border-radius:12px;border:1px solid rgba(212,175,55,0.2)">
+          <div style="text-align:center;color:#9CA3AF">
+            <div style="font-size:3rem;margin-bottom:12px">🗺️</div>
+            <div>Map loading...</div>
+          </div>
+        </div>
+      </div>
+      <div class="map-action-buttons" style="margin-top:16px">
+        <a href="#" id="maps-btn" target="_blank" class="map-btn map-btn-primary">🗺️ View on Google Maps</a>
+        <a href="#" id="directions-btn" target="_blank" class="map-btn map-btn-secondary">🧭 Get Directions</a>
+      </div>
+    </div>
+
+    <!-- Back to All -->
+    <div style="text-align:center;padding:40px 0;border-top:1px solid rgba(255,255,255,0.06)" class="reveal">
+      <a href="layouts.html" class="btn-secondary">← Back to All Layouts</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <div class="footer-logo-icon">R</div>
+          <div><div class="footer-logo-name">Rajesh Builders</div><span class="footer-logo-sub">And Developers</span></div>
+        </div>
+        <p class="footer-desc">Building Trust. Crafting Legacies.</p>
+      </div>
+      <div>
+        <h4 class="footer-heading">Quick Links</h4>
+        <div class="footer-links">
+          <a href="layouts.html">All Layouts</a>
+          <a href="interior.html">Interior Design</a>
+          <a href="construction.html">Construction</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-heading">Contact</h4>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📞</span><a href="tel:+919966563335">+91 99665 63335</a></div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📍</span><span>Tirupati, Andhra Pradesh</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-text">© 2024 <span>Rajesh Builders and Developers</span>. All Rights Reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-whatsapp"><a href="https://wa.me/919966563335" target="_blank">💬 <span>WhatsApp</span></a></div>
+<div class="floating-call"><a href="tel:+919966563335">📞 <span>Call Now</span></a></div>
+<button id="back-to-top">↑</button>
+
+<!-- BOOKING MODAL -->
+<div class="modal-overlay" id="booking-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 class="modal-title">Book a Site Visit</h3>
+      <button class="modal-close">✕</button>
+    </div>
+    <form id="booking-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="booking-name">Full Name *</label>
+          <input type="text" id="booking-name" class="form-control" placeholder="Your name" required>
+          <div class="form-error"></div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="booking-phone">Phone *</label>
+          <input type="tel" id="booking-phone" class="form-control" placeholder="+91 XXXXX XXXXX" required>
+          <div class="form-error"></div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="booking-date">Preferred Date *</label>
+          <input type="date" id="booking-date" class="form-control" required>
+          <div class="form-error"></div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="booking-time">Preferred Time *</label>
+          <select id="booking-time" class="form-control" required>
+            <option value="">Select Time</option>
+            <option>9:00 AM – 11:00 AM</option>
+            <option>11:00 AM – 1:00 PM</option>
+            <option>2:00 PM – 4:00 PM</option>
+            <option>4:00 PM – 6:00 PM</option>
+          </select>
+          <div class="form-error"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="booking-layout">Layout</label>
+        <select id="booking-layout" class="form-control"></select>
+      </div>
+      <button type="submit" class="btn-primary" style="width:100%;justify-content:center">Book Site Visit →</button>
+    </form>
+  </div>
+</div>
+
+<div class="notifications-container"></div>
+
+<script type="module" src="js/main.js"></script>
+<script type="module">
+  import { initLayoutDetailPage, initBookingForm } from './js/layouts.js';
+  document.addEventListener('DOMContentLoaded', () => {
+    initLayoutDetailPage();
+    initBookingForm();
+    // Sync heading
+    const name = document.getElementById('layout-name')?.textContent;
+    if (name) document.getElementById('layout-name-heading').textContent = name;
+  });
+</script>
+</body>
+</html>
